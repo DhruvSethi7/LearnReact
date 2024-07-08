@@ -1,0 +1,4 @@
+Q1 Why link tag is used?
+Ans Because it is replacement of anchor tag ,anchor tag refreshes the whole page ,while the link tag is responsible for changing the components
+
+Q2 

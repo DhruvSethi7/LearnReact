@@ -1,0 +1,157 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .fixed-header {
+    background-color: black;
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Add padding to the left and right */
+  }
+
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .left-logo, .right-logo {
+    height: 140px; /* Adjust as needed */
+    width: 150px;
+  }
+  
+  .main-content {
+    margin-top: 200px; /* Adjust based on header height */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    margin-right: 40px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 3.0em;
+    margin: 0;
+    line-height: 1.2;
+    color: #2C0735;
+}
+
+.highlight {
+    color: #40c232;
+}
+
+.subheading {
+    color: #777777;
+    margin: 20px 0;
+}
+
+.download-btn {
+    background-color: #40c232;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.image-container {
+    max-width:100px;
+    height: 200px;
+}
+
+.app-image {
+    width: 100%;
+    height: auto;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    /* background-color: #F9F9F9; */
+    text-align: center;
+}
+
+.stat-item h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #2C0735;
+}
+
+.stat-item p {
+    color: #777777;
+}
+
+.youtube{
+    margin: 150px;
+    margin-bottom: 0px;
+}
+
+.youtubevideo{
+    height: 600px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.youtubevideo iframe {
+   
+    width: 100%;  /* Fills the entire container width */
+    height: 100%; /* Fills the entire container height */
+  }
+  .carouselo{
+    margin: 150px;
+    margin-top: 50px;
+}
+.carousel-container {
+    overflow: hidden;
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    margin-right: 10px; /* Adjust spacing between items */
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item img {
+    max-width: 50px; /* Ensure images do not exceed container width */
+    height: auto;
+    display: block;
+  }
+  
+  .carousel-item.center {
+    transform: scale(1.2); /* Example: Increase size of the center item */
+  }
+  
