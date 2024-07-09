@@ -1,0 +1,17 @@
+Q1. Why context api is used?
+Ans for effective(optimized) state management
+
+Q2. What is redux?
+Ans redux is generalize solution for the state management
+
+Q3 What is react redux?
+Ans React redux is mainly for react state management.
+
+context is written in pure javascript
+
+
+Context.js -> user ka context create hua
+
+provider.js-> jo bhi variables hame baacho ko dene h vo bnakr value m pass krdo
+
+app.js-> jin components m value leni h ya bhjni hai uske uppar provider lgado

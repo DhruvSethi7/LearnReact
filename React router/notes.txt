@@ -1,4 +1,5 @@
 Q1 Why link tag is used?
 Ans Because it is replacement of anchor tag ,anchor tag refreshes the whole page ,while the link tag is responsible for changing the components
 
-Q2 
+Q2 What is the differnce between using loader and useEffect?
+Ans Loader loads when we hover ,while the useEffect will run after the component is mounted successfully
