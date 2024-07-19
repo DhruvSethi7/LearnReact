@@ -112,14 +112,26 @@ h1 {
     margin-left: 8vw;
     margin-right: 8vw;
 }
-
-.youtubevideo{
+@media (max-width: 440px){
+  .youtubevideo{
     height: 40vh;
     width: 100%;
     border: 2px solid black;
     display: flex;
     align-items: center;
 }
+}
+@media (max-width: 1600px){
+  .youtubevideo{
+    height: 60vh;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+}
+
+
 .youtubevideo iframe {
    
     width: 100%;  /* Fills the entire container width */
@@ -130,30 +142,50 @@ h1 {
     margin-top: 50px;
 }
 .carousel-container {
-    overflow: hidden;
-    width: 80%; /* Adjust width as needed */
-    margin: 0 auto;
-    margin-top: 50px;
-  }
-  
-  .carousel {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  
-  .carousel-item {
-    flex: 0 0 auto;
-    margin-right: 10px; /* Adjust spacing between items */
-    
-  }
-  
+  height: 70vh;
+  /* overflow-x: scroll; */
+  overflow-y: hidden;
+  margin: 10vh 5vw 20vh 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item {
+  margin-right: 10px; /* Adjust spacing between items */
+  border-radius: 25px;
+}
+
+.carousel-item img {
+  max-width: 30vw; /* Ensure images do not exceed container width */
+  height: 50vh; /* Adjust height of all items */
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+@media (max-width: 440px)  {
   .carousel-item img {
-    max-width: 10vw; /* Ensure images do not exceed container width */
-    height: auto;
-    display: block;
+    max-width: 30vw; /* Ensure images do not exceed container width */
+    height: 15vh; /* Adjust height of all items */
+    border-radius: 25px;
+    border: 2px solid black;
   }
   
-  .carousel-item.center {
-    transform: scale(1.2); /* Example: Increase size of the center item */
+}
+.bigone img {
+  height: 60vh; /* Adjust height of the big item */
+}
+
+@media (max-width: 440px) {
+  .bigone img {
+    height: 30vh; /* Adjust height of the big item */
   }
   
+}

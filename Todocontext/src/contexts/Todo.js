@@ -1,10 +1,11 @@
 
-import { createContext } from "react";
+import { createContext, useContext } from "react";
 
 export const TodoContext=createContext({
     todos:[
-        {'id':1,
-        'todo':'hii'
+        {id:1,
+        todo:'hii',
+        isCompleted:false
     }
     ],
     addTodo:(todo)=>{},
